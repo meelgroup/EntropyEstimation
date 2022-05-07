@@ -1,6 +1,6 @@
 # EntropyEstimation
 
-A tool to compute Shannon entropy efficiently. Based on a paper to be appeared at CAV-2022.
+A tool to compute Shannon entropy efficiently. Based on the paper `A Scalable Entropy Estimator` to be appeared at CAV-2022.
 
 ## Requirements to run
 
@@ -11,6 +11,12 @@ To install the required libraries, run:
 ```
 python -m pip install -r requirements.txt
 ```
+
+Additionaly it depends on:
+
+1. [Spur](https://github.com/ZaydH/spur) to sample the satisfying assignment of specification uniformaly at random.
+2. [Ganak](https://github.com/meelgroup/ganak) for projected model counting.
+3. [WAPS](https://github.com/meelgroup/WAPS): You can choose to sample using WAPS instead of Spur.
 
 
 In the `dependencies` and `bin` directory, you will find 64-bit x86 Linux compiled binaries for the required dependencies.
