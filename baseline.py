@@ -32,7 +32,6 @@ import argparse
 import copy
 import tempfile
 import numpy as np
-import numpy as median
 import statistics
 from waps import sampler as samp
 import time
