@@ -1,6 +1,6 @@
 # EntropyEstimation
 
-A tool to compute Shannon entropy efficiently. Based on our CAV-22 paper `A Scalable Entropy Estimator` (https://arxiv.org/abs/2206.00921).
+A tool to compute Shannon entropy efficiently. Based on our CAV-22 paper [A Scalable Entropy Estimator](https://arxiv.org/abs/2206.00921).
 
 ## Requirements to run
 
